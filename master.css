@@ -1,0 +1,127 @@
+/* /////////////////////////Cookie Clicker/////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+/* //////////////////////////////////////////////////////////// */
+body {
+    user-select: none;
+    text-align: center;
+    color: #d1953f;
+    height: 525px;
+    background: url(./img/cookie.jpg);
+    background-color: black;
+    background-blend-mode: luminosity;
+    background-repeat: repeat;
+}                                           
+/* //////////////////////////////////////////////////////////// */
+.container .box-container {
+    display: grid;
+    grid-gap: 10px;
+    justify-items: center;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    height: 365px;
+    width: 350px;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box img {
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 5px;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box .btn1 {
+    display: inline-block;
+    background: #ec0000;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 160px;
+    left: 8px;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box .btn2 {
+    display: inline-block;
+    background: #ec0000;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    bottom: 34px;
+    right: 13px;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box .btn1:hover {
+    background: #0a0a0a98;
+    transition: 3s;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box .btn2:hover {
+    background: #0a0a0a98;
+    transition: 3s;
+}
+/* //////////////////////////////////////////////////////////// */
+.container .box-container .box .cookie {
+    width: 70%;
+    margin: auto;
+}
+/* //////////////////////////////////////////////////////////// */
+table {
+    width: 363px;
+    font-size: 15px;
+    position: relative;
+    top: 44px;
+}
+/* //////////////////////////////////////////////////////////// */
+td {
+    border:1px dashed;
+    border-radius: 10px;
+}
+/* //////////////////////////////////////////////////////////// */
+.numbers, .upgradeLevel {
+    position: relative;
+    display: flex;
+    top: 5px;
+    right: 13px;
+    width: 271px;
+    height: 70px;
+    font-size: 30px;
+    border: 2px dotted black;
+    background-color: #0000006b;
+    align-items: center;
+    justify-content: center;
+}
+/* //////////////////////////////////////////////////////////// */
+.cost {
+    border-radius: 26px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #4875056e;
+}
+/* //////////////////////////////////////////////////////////// */
